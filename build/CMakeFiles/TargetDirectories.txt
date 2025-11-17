@@ -1,0 +1,3 @@
+D:/Project 2/build/CMakeFiles/FinanceTracker.dir
+D:/Project 2/build/CMakeFiles/ALL_BUILD.dir
+D:/Project 2/build/CMakeFiles/ZERO_CHECK.dir
