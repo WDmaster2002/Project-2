@@ -81,3 +81,16 @@ void TransactionManager::showMonthlySummary(const std::string& yearMonth) const 
 	}
 	std::cout << "=====================================\n\n";
 }
+
+double TransactionManager::getTotalBalance()
+{
+	double totalIncome = 0.0;
+	double totalExpense = 0.0;
+
+	for (const auto& t : transactions)
+	{
+		if (t.type == "income") totalIncome += t.amount;
+		else totalExpense += t.amount;
+	}
+	return totalIncome - totalExpense;
+}

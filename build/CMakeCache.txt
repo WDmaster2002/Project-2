@@ -197,6 +197,9 @@ FinanceTracker_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 FinanceTracker_SOURCE_DIR:STATIC=D:/Project 2
 
+//Path to a file.
+SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries

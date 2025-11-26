@@ -25,6 +25,8 @@ public:
 	void showMonthlySummary(const std::string& yearMonth) const;
 
 	std::vector<Transaction>& getAll() { return transactions; };
+
+	double getTotalBalance();
 private:
 	std::vector<Transaction> transactions;
 
